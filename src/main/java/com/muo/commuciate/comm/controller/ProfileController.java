@@ -14,7 +14,7 @@ public class ProfileController {
             model.addAttribute("section","questions");
             model.addAttribute("sectionName","我的提问");
         }else if("replies".equals(action)){
-            model.addAttribute("section","questions");
+            model.addAttribute("section","replies");
             model.addAttribute("sectionName","最新回复");
         }
         return "profile";
